@@ -25,7 +25,7 @@
               </camunda:map>
             </camunda:inputParameter>
             <camunda:inputParameter name="method">GET</camunda:inputParameter>
-            <camunda:inputParameter name="ur">http://127.0.0.1/8082/mock/user/${id}</camunda:inputParameter>
+            <camunda:inputParameter name="url">http://127.0.0.1/8082/mock/user/${id}</camunda:inputParameter>
           </camunda:inputOutput>
           <camunda:connectorId>http-connector</camunda:connectorId>
         </camunda:connector>
